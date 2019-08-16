@@ -152,7 +152,6 @@ const BarChart: React.FC = () => {
                       mutation: props => {
                         const toggledDataArray = dataArray.map(data => {
                           if (props.datum.name === data.name) {
-                            console.log("===")
                             return { ...data, hidden: !data.hidden }
                           } else {
                             return data
@@ -177,7 +176,6 @@ const BarChart: React.FC = () => {
           {dataArray
             .filter(data => data.hidden === false)
             .map(data => {
-              console.log({ hidden: data.hidden })
               return (
                 <VictoryBar
                   style={{ data: { fill: `#${random6HexChars(data.name)}` } }}
