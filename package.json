@@ -12,7 +12,7 @@
     "@types/victory": "^31.0.20",
     "csv-parse": "^4.4.5",
     "lodash": "^4.17.15",
-    "papaparse": "^5.0.1",
+    "papaparse": "^5.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-dropzone": "^10.1.7",
