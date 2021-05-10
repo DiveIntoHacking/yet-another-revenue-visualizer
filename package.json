@@ -11,7 +11,7 @@
     "@types/react-dom": "16.8.5",
     "@types/victory": "^31.0.20",
     "csv-parse": "^4.4.5",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "papaparse": "^5.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
